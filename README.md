@@ -1,1 +1,17 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/On0xL5EX)
+# Module 3 Assignment: Design Study
+#### Authors: Sadie Amato, Bailey DeSouza, Ajay Gandecha, Meghan Sun
+
+## Precondition
+### 1. Learn
+### 2. Winnow
+
+## Core
+### 1. Discover
+### 2. Design
+### 3. Implement
+### 4. Deploy
+### 5. Iterate
+
+## Analysis
+### 1. Reflect pt. 1
+### 2. Reflect pt 2
