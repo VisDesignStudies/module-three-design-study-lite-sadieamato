@@ -1,6 +1,10 @@
 # Module 3 Assignment: Design Study
 #### Authors: Sadie Amato, Bailey DeSouza, Ajay Gandecha, Meghan Sun
 
+**Slides**: https://docs.google.com/presentation/d/14IkNABHwWxRch61UaD2hVYvQNx5_0HM-ze1e-8X8vXU/edit?usp=sharing
+
+**Video Presentation**:
+
 ## Precondition
 ### 1. Learn
 The US Department of Energy has recently hired us to design a visualization tool to influence future data-driven policy recommendations. More specifically, we are constructing our tool to help reveal how energy consumption of various sources has changed over time and what direction it is trending. Energy consumption and policies differ vastly among sectors, so we were asked to focus on two of the largest populated sectors: residential and commercial. 
