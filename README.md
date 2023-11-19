@@ -106,8 +106,30 @@ toggle between the Residential visualization view and Commercial visualization v
 With this style of visualization and the color-coding, it’s very clear to the viewer which form of energy consumption is the highest. It’s also easy to see trends within each form of energy and make comparisons. Thus, this visualization could serve useful in trying to find energy consumption trends and create new policies based on the trends.
 
 ### 3. Implement
+
+To successfully implement the design featured above, we decided to use Tableau. Tableau is great for creating well-designed and interactive data visualizations with less overhead. Our final visualization design is shown below:
+
+![Visualization Design]()
+
+First, we imported our data into Tableau. In this step, we focused on the data fields that were mentioned in **Part 2: Winnow**. In order to make our final visualizations more readable, we also modified the column labels to include more natural text. From there, we began to work on the first plot.
+
+To get started, we set `Year` as our X-axis and `Consumption` as our Y-axis, as shown in the chart. Our first visualization focused on displaying Energy Consumption in the *Commercial* sector. So, each consumption metric relating to the commerical sector was laid out as a data measure value. We added tooltips for covering over values and a legend to the visualization to best match the design.
+
+We repeated this same process for the second visualization, but using the residential sector data as our measure values. We also attempted to keep the color palletes consistent to avoid the introduction of any confounding variables that may impact readers' understanding of the visualization.
+
+During the implementation step, we found that we needed to slightly modify our design to better conform to Tableau's limitations. Both visualizations were on separate pages, and Tableau does not easily allow the implementation of a *toggle* to switch between these pages. Instead, we opted to use a button to navigate between both pages on our visualization.
+
 ### 4. Deploy
+
+Once implemented, we deployed our visualization live on Tableau Public. Our visualzation is available on Tableau Public [here](https://public.tableau.com/app/profile/ajay.gandecha/viz/590-consumption/EnergyConsumptionbyCategoryacrossSectors-Residential#1).
+
+We also deployed our visualization on our website for easy viewing. Since this Tableau visualization is easily embedded into HTML, users could easily use and access this visualization in reports, data stories, or proposals. The deployment of our visualization to the web is located [here]().
+
 ### 5. Iterate
+
+Now that our visualization is complete, there are many opportunities to interate on the design to include more data and help our stakeholders make more informed decisions. One of the main places to iterate this visualization is to add more views for data on energy consumption in other sectors. While we chose to focus on *commercial* and *residential* energy consumption, our dataset included consumption on other sectors such as *transportation*, *industrial*, *electric*, and more. 
+
+To add more views, we would simply need to utilize the same Tableau sheet template that we used for the first two visualizations, change the measure values, and ensure that they key's colors are still consistent with those from the other visualizations. Since we would be adding more pages, it may also be beneficial to add either a cover page to the visualization or another view to better compare the data across sectors. Another challenge will be implementing sucessful navigation between these visualizations, however this could also be implemented through said cover page.
 
 ## Analysis
 ### 1. Reflect pt. 1
