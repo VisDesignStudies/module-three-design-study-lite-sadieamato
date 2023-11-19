@@ -121,15 +121,20 @@ During the implementation step, we found that we needed to slightly modify our d
 
 ### 4. Deploy
 
-Once implemented, we deployed our visualization live on Tableau Public. Our visualzation is available on Tableau Public [here](https://public.tableau.com/app/profile/ajay.gandecha/viz/590-consumption/EnergyConsumptionbyCategoryacrossSectors-Residential#1).
+Once implemented, we deployed our visualization live on Tableau Public. Our visualization is available on Tableau Public [here](https://public.tableau.com/app/profile/ajay.gandecha/viz/590-consumption/EnergyConsumptionbyCategoryacrossSectors-Residential#1).
 
-We also deployed our visualization on our website for easy viewing. Since this Tableau visualization is easily embedded into HTML, users could easily use and access this visualization in reports, data stories, or proposals. The deployment of our visualization to the web is located [here]().
+We also deployed our visualization on our website for easy viewing. Since this Tableau visualization is easily embedded into HTML, users could easily use and access this visualization in reports, data stories, or proposals. The deployment of our visualization to the web is located [here](https://visdesignstudies.github.io/module-three-design-study-lite-sadieamato/).
+
+#### _TODO_: Note your observations about the data gained through these tasks. 
+
 
 ### 5. Iterate
 
-Now that our visualization is complete, there are many opportunities to interate on the design to include more data and help our stakeholders make more informed decisions. One of the main places to iterate this visualization is to add more views for data on energy consumption in other sectors. While we chose to focus on *commercial* and *residential* energy consumption, our dataset included consumption on other sectors such as *transportation*, *industrial*, *electric*, and more. 
+Now that our visualization is complete, there are many opportunities to interate on the design to include more data and help our stakeholders make more informed decisions. One of the main places to iterate this visualization is to add more views for data on energy consumption in other sectors. While we chose to focus on *commercial* and *residential* energy consumption, our dataset included consumption on other sectors such as *transportation*, *industrial*, *electric*, and more. With slight adjustments to the tasks defined above, we could enumerate similar tasks for these other sectors.
 
-To add more views, we would simply need to utilize the same Tableau sheet template that we used for the first two visualizations, change the measure values, and ensure that they key's colors are still consistent with those from the other visualizations. Since we would be adding more pages, it may also be beneficial to add either a cover page to the visualization or another view to better compare the data across sectors. Another challenge will be implementing sucessful navigation between these visualizations, however this could also be implemented through said cover page.
+Additionally, to further investigate our target problem and enable more tailored policymaking, a useful third task would be discovering how energy source usage in the residential sector varies in each state. The populations of each state likely have different behaviors when it comes to energy use, as well as different energy sources available–or not–to them. This task would be defined as: *How does the usage of the different energy sources by the residential sector change over time, and vary state by state?* This task also could be described similarly to how our original two tasks were (especially the when, where, and how). However, this task will seek to learn how states differ in their residential energy sources, and it will be done by looking at the makeup of these sources in charts filtered to show just the chosen state(s).
+
+To add more views, we would simply need to utilize the same Tableau sheet template that we used for the first two visualizations, change the measure values, and ensure that they key's colors are still consistent with those from the other visualizations. We could add a filter on Tableau to enable the user to change between states on these views. Since we would be adding more pages, it may also be beneficial to add either a cover page to the visualization or another view to better compare the data across sectors. Another challenge will be implementing sucessful navigation between these visualizations, however this could also be implemented through said cover page.
 
 ## Analysis
 ### 1. Reflect pt. 1
