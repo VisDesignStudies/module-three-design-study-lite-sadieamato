@@ -9,25 +9,25 @@
 
 ## Precondition
 ### 1. Learn
-The US Department of Energy has recently hired us to design a visualization tool to influence future data-driven policy recommendations. More specifically, we are constructing our tool to help reveal how energy consumption of various sources has changed over time and what direction it is trending. Energy consumption and policies differ vastly among sectors, so we were asked to focus on two of the largest populated sectors: residential and commercial. 
+The US Department of Energy has recently hired us to design a visualization tool to influence future data-driven policy recommendations. More specifically, we are constructing our tool to help reveal how energy consumption of various sources has changed over time and what direction it is trending. Energy consumption and policies differ vastly among sectors, so we decided to focus on two of the largest sectors: residential and commercial. 
 
-The commercial energy sector comprises service facilities and business equipment at all federal, state, and local levels. Energy consumption can commonly be heating, air conditioning, lighting, and powering generators, to name a few examples.  Space heating is the largest energy end-use, accounting for about 32% of energy consumption in 2018. Natural gas and electricity are the two main energy sources used, with about 60% electricity and 34% natural gas usage in 2018 (https://www.eia.gov/energyexplained/use-of-energy/commercial-buildings.php).
+The commercial energy sector comprises service facilities and business equipment at all federal, state, and local levels. Energy consumption can commonly be heating, air conditioning, lighting, and powering generators, to name a few examples.  Space heating is the largest energy end-use, accounting for about 32% of energy consumption in 2018. Natural gas and electricity are the two main energy sources used, with about 60% electricity and 34% natural gas usage in 2018 [(source)](https://www.eia.gov/energyexplained/use-of-energy/commercial-buildings.php).
 
 On the other hand, the residential sector is made up of private households. Typical energy consumption includes heating, air conditioning, cooking, and running appliances. 
-The residential sector largely relies on natural gas, petroleum, renewables, and electricity for energy consumption. In the mid to late 1900s, natural gas and petroleum were the most used resources. With time, the sector has grown to rely more on electricity and natural gas (https://www.eia.gov/energyexplained/use-of-energy/homes.php#:~:text=The%20types%20and%20major%20end,and%20water%20heating%2C%20clothes%20drying).
+The residential sector largely relies on natural gas, petroleum, renewables, and electricity for energy consumption. In the mid to late 1900s, natural gas and petroleum were the most used resources. With time, the sector has grown to rely more on electricity and natural gas [(source)](https://www.eia.gov/energyexplained/use-of-energy/homes.php#:~:text=The%20types%20and%20major%20end,and%20water%20heating%2C%20clothes%20drying).
  
-It’s important to influence effective energy policy because current US energy use could lead to an unsustainable future. The US makes up less than 5% of the world’s population, yet consumes about 16% of the world’s energy. If current trends continue, the US is estimated to have 66% of energy come from fossil fuels by 2050, which fails to meet the IPCC carbon reduction goals. The emissions of fossil fuels continue to add more greenhouse gasses to our environment (https://www.google.com/url?q=https://css.umich.edu/publications/factsheets/energy/us-energy-system-factsheet&sa=D&source=docs&ust=1700463359372907&usg=AOvVaw0rh803vEvRTACUl-5Pkwo8). 
+It’s important to influence effective energy policy because current US energy use could lead to an unsustainable future. The US makes up less than 5% of the world’s population, yet consumes about 16% of the world’s energy. If current trends continue, the US is estimated to have 66% of energy come from fossil fuels by 2050, which fails to meet the IPCC carbon reduction goals. The emissions of fossil fuels continue to add more greenhouse gasses to our environment [(source)](https://www.google.com/url?q=https://css.umich.edu/publications/factsheets/energy/us-energy-system-factsheet&sa=D&source=docs&ust=1700463359372907&usg=AOvVaw0rh803vEvRTACUl-5Pkwo8). 
 
-Our goal is to make the monitoring of energy trends more accessible. Energy policies are critical in influencing the US's energy habits, and understanding current trends will make such policies more effective. A push towards more energy efficiency has benefits on multiple levels. On an environmental level, it will help lower greenhouse gas emissions, water use, and pollutants. From an economic perspective, more efficient energy use reduces costs for consumers (https://www.epa.gov/statelocalenergy/local-energy-efficiency-benefits-and-opportunities#:~:text=Benefits%20of%20Energy%20Efficiency,-Using%20energy%20more&text=Environmental%3A%20Increased%20efficiency%20can%20lower,stabilize%20electricity%20prices%20and%20volatility.). 
+Our goal is to make the monitoring of energy trends more accessible. Energy policies are critical in influencing the US's energy habits, and understanding current trends will make such policies more effective. A push towards more energy efficiency has benefits on multiple levels. On an environmental level, it will help lower greenhouse gas emissions, water use, and pollutants. From an economic perspective, more efficient energy use reduces costs for consumers [(source)](https://www.epa.gov/statelocalenergy/local-energy-efficiency-benefits-and-opportunities#:~:text=Benefits%20of%20Energy%20Efficiency,-Using%20energy%20more&text=Environmental%3A%20Increased%20efficiency%20can%20lower,stabilize%20electricity%20prices%20and%20volatility.). 
   
 This is all to say that it’s becoming more integral to instill policies to use resources better; we aim to influence more energy decisions by the US Department of Energy to be data-driven.
 
 ### 2. Winnow
-To explore our problem, we need data to provide information about energy consumption trends for both the commercial and residential sectors. Within each sector, we want to know the breakdown of the types of energy resources used and how they change with time. With these factors in mind, we found the USA State energy data provided by the U.S Energy Information Administration (EIA) to be the best fit data for our goals. The US EIA publishes consumption, expenditures, and prices by state, sector, and year; we will use a CSV dataset that combines such variables provided by the CORGIS Dataset project. [5]
+To explore our problem, we need data to provide information about energy consumption trends for both the commercial and residential sectors. Within each sector, we want to know the breakdown of the types of energy resources used and how they change with time. With these factors in mind, we found the US State energy data provided by the US Energy Information Administration (EIA) to be the best fit data for our goals. The US EIA publishes consumption, expenditures, and prices by state, sector, and year; we will use a CSV dataset that combines such variables provided by the CORGIS Dataset project. [(source)](https://corgis-edu.github.io/corgis/csv/energy/)
 
 The dataset we are using contains US energy data by state spanning from 1960 to 2019. Data about energy consumption, expenditure, and price by state and sector is provided. One factor to be aware of in the dataset is that there may be incomplete information on newer energy resources, such as solar or wind, especially in the residential sector. Additionally, it would be more ideal if we had data on energy consumption through 2022, since that even-more-recent energy usage would also be relevant to our target problem.
 
-Our goal is to show how energy consumption has changed over time, along with the current trends, so that it can help our client make better future energy policies. The two sectors we are focusing on are residential and commercial. The EIA dataset is useful to our question as it provides all these factors. 
+Our goal is to show how energy consumption has changed over time, along with the current trends, so that it can help our client make better future energy policies. The two sectors we are focusing on are residential and commercial. The EIA dataset is useful to our question as it provides information about all these factors. 
 
 To allow us to communicate trends for the US over time properly, we will use the following columns:
 - Year 
@@ -54,15 +54,15 @@ For the commercial side, we will be looking at:
 - Consumption.Commercial.Solar
 - Consumption.Commercial.Wind
 
-Looking at these columns will be sufficient to support our approach as it provides information about energy consumption in our target sector and breaks the consumption down by energy resource.
+Looking at these columns will be sufficient to support our approach as it provides information about energy consumption in our target sectors and breaks the consumption down by energy resource.
 
 
 ## Core
 ### 1. Discover
-In narrowing down the given energy dataset, we decided to focus on energy usage separately in two sectors: residential and commercial. We believe it would be important for the Dept. of Energy to examine past trends in energy sources in these sectors to give their recommendations on future policies. Therefore, we generated our two tasks to enable the department to do just that.
+In narrowing down the given energy dataset, we decided to focus on energy usage separately in two sectors: residential and commercial. We believe it would be important for the DoE to examine past trends in energy sources in these sectors to give their recommendations on future policies. Therefore, we generated our two tasks to enable the department to do just that.
 ##### Task 1: How does the usage of the different energy sources by the residential sector change over time?
 - _Why_ is a task pursued?
-  - To support Dept of Energy’s recommendations for residential energy policies 
+  - To support DoE’s recommendations for residential energy policies 
 - _How_ is a task conducted?
   - Look at the makeup of residential energy sources over time and compare this with the ideal source makeup
 - _What_ does a task seek to learn about the data?
@@ -76,7 +76,7 @@ In narrowing down the given energy dataset, we decided to focus on energy usage 
 
 ##### Task 2: How does the usage of the different energy sources by the commercial sector change over time?
 - _Why_ is a task pursued?
-  - To support Dept of Energy’s recommendations for commercial energy policies 
+  - To support DoE’s recommendations for commercial energy policies 
 - _How_ is a task conducted?
   - Look at the makeup of commercial energy sources over time and compare this with the ideal source makeup
 - _What_ does a task seek to learn about the data?
@@ -90,8 +90,8 @@ In narrowing down the given energy dataset, we decided to focus on energy usage 
 
 ### 2. Design
 ![prototype](prototype.png)
-##### Possible Interactive Features We're Considering at this Stage: 
-toggle between the Residential visualization view and Commercial visualization view, hover over each point in the line graph to view the specific value, toggle between different years
+##### Possible Interactive Features We Considered at this Stage: 
+Toggle between the residential visualization view and commercial visualization view, hover over each point in the line graph to view the specific value, toggle between different years
 ##### Design Trade-offs:
 - Pros:
   - Easy to understand (for most viewers)
@@ -117,7 +117,7 @@ First, we imported our data into Tableau. In this step, we focused on the data f
 
 To get started, we set `Year` as our X-axis and `Consumption` as our Y-axis, as shown in the chart. Our first visualization focused on displaying Energy Consumption in the *Commercial* sector. So, each consumption metric relating to the commerical sector was laid out as a data measure value. We added tooltips for covering over values and a legend to the visualization to best match the design.
 
-We repeated this same process for the second visualization, but using the residential sector data as our measure values. We also attempted to keep the color palletes consistent to avoid the introduction of any confounding variables that may impact readers' understanding of the visualization.
+We repeated this same process for the second visualization, but using the residential sector data as our measure values. We also attempted to keep the color palettes consistent to avoid the introduction of any confounding variables that may impact readers' understanding of the visualization.
 
 During the implementation step, we found that we needed to slightly modify our design to better conform to Tableau's limitations. Both visualizations were on separate pages, and Tableau does not easily allow the implementation of a *toggle* to switch between these pages. Instead, we opted to use a button to navigate between both pages on our visualization.
 
@@ -142,17 +142,17 @@ To add more views, we would simply need to utilize the same Tableau sheet templa
 
 This visualization tool makes it easy to notice trends in data and make comparisons. 
 
-As we can see, natural gas has consistently remained the top energy source for both the residential and commercial sectors. Petroleum has also consistently ranked second for both sectors. We can also see when certain policies were enacted. For example, between 1978 and 1983, there was a significant drop in the use of petroleum and distillate fuel oil for the commercial sector. This was likely caused by the National Energy Act, introduced in 1978, outlining the need to reduce the nation’s dependency on oil and increasing renewable energy resources. This act was closely followed by the Energy Security Act of 1980, incentivizing private industry to seek out different approaches into renewable energy. Both acts included tax credits to encourage businesses to invest into the causes (https://education.nationalgeographic.org/resource/executive-energy-efforts/).
+As we can see, natural gas has consistently remained the top energy source for both the residential and commercial sectors. Petroleum has also consistently ranked second for both sectors. We can also see when certain policies were enacted. For example, between 1978 and 1983, there was a significant drop in the use of petroleum and distillate fuel oil for the commercial sector. This was likely caused by the National Energy Act, introduced in 1978, outlining the need to reduce the nation’s dependence on oil and increasing renewable energy resources. This act was closely followed by the Energy Security Act of 1980, incentivizing private industry to seek out different approaches into renewable energy. Both acts included tax credits to encourage businesses to invest into the causes [(source)](https://education.nationalgeographic.org/resource/executive-energy-efforts/).
 
-So, we’ve seen that the visualization aligns with policies throughout history, proving that energy policies do have a cement impact on future energy consumption. In general, most non-renewable energy consumption has been on the decline, with the exception of natural gas. This is true for both the residential and commercial sectors. It’d be great to see the Department of Energy hone in on natural gas consumption, incentivizing both businesses and individuals to make a switch to more renewable energy, and providing plans for alternative energy sources. 
+So, we’ve seen that the visualization aligns with policies throughout history, proving that energy policies do have a concrete impact on future energy consumption. In general, most non-renewable energy consumption has been on the decline, with the exception of natural gas. This is true for both the residential and commercial sectors. It’d be great to see the DoE hone in on natural gas consumption, incentivizing both businesses and individuals to make a switch to more renewable energy, and providing plans for alternative energy sources. 
 
-In addition to a policy regarding natural gas consumption, the DOE could also benefit from conducting research into why petroleum usage has increased in the residential sector since 2014. Prior to 2014 it appears to have been on a steady decline, but has since remained consistent. 
+In addition to a policy regarding natural gas consumption, the DoE could also benefit from conducting research into why petroleum usage has increased in the residential sector since 2014. Prior to 2014 it appears to have been on a steady decline, but has since remained consistent. 
 
 These are just two of many observations and recommendations that can be gleaned from this visualization tool.
 
 ### 2. Reflect pt 2
 
-When designing visualizations for the Department of Energy, or any stakeholder who is wanting to analyze and view trends in data, it's imperative to create a solution that 1) allows for self-exploration and 2) allows for comparisons. Creating this visualization tool provided a lot of insights in how to address a stakeholder's needs.
+When designing visualizations for the Department of Energy, or any stakeholder who is wanting to analyze and view trends in data, it's imperative to create a solution that 1) allows for self-exploration and 2) allows for comparisons. Creating this visualization tool provided a lot of insights into how to address a stakeholder's needs.
 
 In the final visualization created, the viewer is able to see side-by-side the different levels of energy consumption by type of consumption over the period of 59 years. It would be very difficult to create any sort of energy policy if just one type of energy was included in this visualization; the visualization wouldn't be sufficient enough to draw conclusions. Additionally, the viewer is able toggle between viewing residential consumption and commercial consumption, and hover over specific points to see the exact energy consumption level. These features allow for the viewer to have a greater understanding of the data and to focus on aspects that align with their interests or policy priorities. This visualization was also built with scalability in mind. As touched on in the iterate section, we can easily scale up this visualization tool to include other sectors, such as: transportation, industrial, and electric.
 
