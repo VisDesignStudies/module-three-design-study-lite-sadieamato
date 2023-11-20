@@ -5,6 +5,8 @@
 
 **Video Presentation**:
 
+**Live Visualization Tool**: https://visdesignstudies.github.io/module-three-design-study-lite-sadieamato/
+
 ## Precondition
 ### 1. Learn
 The US Department of Energy has recently hired us to design a visualization tool to influence future data-driven policy recommendations. More specifically, we are constructing our tool to help reveal how energy consumption of various sources has changed over time and what direction it is trending. Energy consumption and policies differ vastly among sectors, so we were asked to focus on two of the largest populated sectors: residential and commercial. 
@@ -138,3 +140,9 @@ To add more views, we would simply need to utilize the same Tableau sheet templa
 ## Analysis
 ### 1. Reflect pt. 1
 ### 2. Reflect pt 2
+
+When designing visualizations for the Department of Energy, or any stakeholder who is wanting to analyze and view trends in data, it's imperative to create a solution that 1) allows for self-exploration and 2) allows for comparisons. Creating this visualization tool provided a lot of insights in how to address a stakeholder's needs.
+
+In the final visualization created, the viewer is able to see side-by-side the different levels of energy consumption by type of consumption over the period of 59 years. It would be very difficult to create any sort of energy policy if just one type of energy was included in this visualization; the visualization wouldn't be sufficient enough to draw conclusions. Additionally, the viewer is able toggle between viewing residential consumption and commercial consumption, and hover over specific points to see the exact energy consumption level. These features allow for the viewer to have a greater understanding of the data and to focus on aspects that align with their interests or policy priorities. This visualization was also built with scalability in mind. As touched on in the iterate section, we can easily scale up this visualization tool to include other sectors, such as: transportation, industrial, and electric.
+
+As designers, we learned that creating a well-crafted visualization tool should not result in a static representation, but a dynamic, evolving tool, allowing for growth and encouraging stakeholders to independently explore. 
