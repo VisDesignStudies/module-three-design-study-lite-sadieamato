@@ -11,14 +11,14 @@
 ### 1. Learn
 The US Department of Energy has recently hired us to design a visualization tool to influence future data-driven policy recommendations. More specifically, we are constructing our tool to help reveal how energy consumption of various sources has changed over time and what direction it is trending. Energy consumption and policies differ vastly among sectors, so we were asked to focus on two of the largest populated sectors: residential and commercial. 
 
-The commercial energy sector comprises service facilities and business equipment at all federal, state, and local levels. Energy consumption can commonly be heating, air conditioning, lighting, and powering generators, to name a few examples.  Space heating is the largest energy end-use, accounting for about 32% of energy consumption in 2018. Natural gas and electricity are the two main energy sources used, with about 60% electricity and 34% natural gas usage in 2018. [1]
+The commercial energy sector comprises service facilities and business equipment at all federal, state, and local levels. Energy consumption can commonly be heating, air conditioning, lighting, and powering generators, to name a few examples.  Space heating is the largest energy end-use, accounting for about 32% of energy consumption in 2018. Natural gas and electricity are the two main energy sources used, with about 60% electricity and 34% natural gas usage in 2018 (https://www.eia.gov/energyexplained/use-of-energy/commercial-buildings.php).
 
 On the other hand, the residential sector is made up of private households. Typical energy consumption includes heating, air conditioning, cooking, and running appliances. 
-The residential sector largely relies on natural gas, petroleum, renewables, and electricity for energy consumption. In the mid to late 1900s, natural gas and petroleum were the most used resources. With time, the sector has grown to rely more on electricity and natural gas [2].
+The residential sector largely relies on natural gas, petroleum, renewables, and electricity for energy consumption. In the mid to late 1900s, natural gas and petroleum were the most used resources. With time, the sector has grown to rely more on electricity and natural gas (https://www.eia.gov/energyexplained/use-of-energy/homes.php#:~:text=The%20types%20and%20major%20end,and%20water%20heating%2C%20clothes%20drying).
  
-It’s important to influence effective energy policy because current US energy use could lead to an unsustainable future. The US makes up less than 5% of the world’s population, yet consumes about 16% of the world’s energy. If current trends continue, the US is estimated to have 66% of energy come from fossil fuels by 2050, which fails to meet the IPCC carbon reduction goals. The emissions of fossil fuels continue to add more greenhouse gasses to our environment [3]. 
+It’s important to influence effective energy policy because current US energy use could lead to an unsustainable future. The US makes up less than 5% of the world’s population, yet consumes about 16% of the world’s energy. If current trends continue, the US is estimated to have 66% of energy come from fossil fuels by 2050, which fails to meet the IPCC carbon reduction goals. The emissions of fossil fuels continue to add more greenhouse gasses to our environment (https://www.google.com/url?q=https://css.umich.edu/publications/factsheets/energy/us-energy-system-factsheet&sa=D&source=docs&ust=1700463359372907&usg=AOvVaw0rh803vEvRTACUl-5Pkwo8). 
 
-Our goal is to make the monitoring of energy trends more accessible. Energy policies are critical in influencing the US's energy habits, and understanding current trends will make such policies more effective. A push towards more energy efficiency has benefits on multiple levels. On an environmental level, it will help lower greenhouse gas emissions, water use, and pollutants. From an economic perspective, more efficient energy use reduces costs for consumers.[4] 
+Our goal is to make the monitoring of energy trends more accessible. Energy policies are critical in influencing the US's energy habits, and understanding current trends will make such policies more effective. A push towards more energy efficiency has benefits on multiple levels. On an environmental level, it will help lower greenhouse gas emissions, water use, and pollutants. From an economic perspective, more efficient energy use reduces costs for consumers (https://www.epa.gov/statelocalenergy/local-energy-efficiency-benefits-and-opportunities#:~:text=Benefits%20of%20Energy%20Efficiency,-Using%20energy%20more&text=Environmental%3A%20Increased%20efficiency%20can%20lower,stabilize%20electricity%20prices%20and%20volatility.). 
   
 This is all to say that it’s becoming more integral to instill policies to use resources better; we aim to influence more energy decisions by the US Department of Energy to be data-driven.
 
@@ -139,6 +139,17 @@ To add more views, we would simply need to utilize the same Tableau sheet templa
 
 ## Analysis
 ### 1. Reflect pt. 1
+
+This visualization tool makes it easy to notice trends in data and make comparisons. 
+
+As we can see, natural gas has consistently remained the top energy source for both the residential and commercial sectors. Petroleum has also consistently ranked second for both sectors. We can also see when certain policies were enacted. For example, between 1978 and 1983, there was a significant drop in the use of petroleum and distillate fuel oil for the commercial sector. This was likely caused by the National Energy Act, introduced in 1978, outlining the need to reduce the nation’s dependency on oil and increasing renewable energy resources. This act was closely followed by the Energy Security Act of 1980, incentivizing private industry to seek out different approaches into renewable energy. Both acts included tax credits to encourage businesses to invest into the causes (https://education.nationalgeographic.org/resource/executive-energy-efforts/).
+
+So, we’ve seen that the visualization aligns with policies throughout history, proving that energy policies do have a cement impact on future energy consumption. In general, most non-renewable energy consumption has been on the decline, with the exception of natural gas. This is true for both the residential and commercial sectors. It’d be great to see the Department of Energy hone in on natural gas consumption, incentivizing both businesses and individuals to make a switch to more renewable energy, and providing plans for alternative energy sources. 
+
+In addition to a policy regarding natural gas consumption, the DOE could also benefit from conducting research into why petroleum usage has increased in the residential sector since 2014. Prior to 2014 it appears to have been on a steady decline, but has since remained consistent. 
+
+These are just two of many observations and recommendations that can be gleaned from this visualization tool.
+
 ### 2. Reflect pt 2
 
 When designing visualizations for the Department of Energy, or any stakeholder who is wanting to analyze and view trends in data, it's imperative to create a solution that 1) allows for self-exploration and 2) allows for comparisons. Creating this visualization tool provided a lot of insights in how to address a stakeholder's needs.
