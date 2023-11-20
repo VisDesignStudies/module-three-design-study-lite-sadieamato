@@ -125,8 +125,7 @@ Once implemented, we deployed our visualization live on Tableau Public. Our visu
 
 We also deployed our visualization on our website for easy viewing. Since this Tableau visualization is easily embedded into HTML, users could easily use and access this visualization in reports, data stories, or proposals. The deployment of our visualization to the web is located [here](https://visdesignstudies.github.io/module-three-design-study-lite-sadieamato/).
 
-#### _TODO_: Note your observations about the data gained through these tasks. 
-
+The deployed visualization reveals some interesting insights. For both the commercial and residential sectors, natural gas is still the largely predominant energy source. Petroleum also ranks as second for the entire time range for both sectors. For the commercial sector, the usage of petroleum and distillate fuel oil dropped sharply between 1978 and 1983. Since such a drop was not also seen in the residential sector, this perhaps indicates that legislation or regulations was the cause of this drop. Across both sectors, the use of coal has also steadily declined over time.
 
 ### 5. Iterate
 
