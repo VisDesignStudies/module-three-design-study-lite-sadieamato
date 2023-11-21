@@ -111,7 +111,7 @@ With this style of visualization and the color-coding, it’s very clear to the 
 
 To successfully implement the design featured above, we decided to use Tableau. Tableau is great for creating well-designed and interactive data visualizations with less overhead. Our final visualization design is shown below:
 
-![Visualization Design]()
+![Visualization Design](implementation.png)
 
 First, we imported our data into Tableau. In this step, we focused on the data fields that were mentioned in **Part 2: Winnow**. In order to make our final visualizations more readable, we also modified the column labels to include more natural text. From there, we began to work on the first plot.
 
