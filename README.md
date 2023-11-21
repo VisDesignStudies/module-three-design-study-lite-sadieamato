@@ -1,11 +1,11 @@
 # Module 3 Assignment: Design Study
 #### Authors: Sadie Amato, Bailey DeSouza, Ajay Gandecha, Meghan Sun
 
-**Slides**: https://docs.google.com/presentation/d/14IkNABHwWxRch61UaD2hVYvQNx5_0HM-ze1e-8X8vXU/edit?usp=sharing
+**Slides**: [Link here](https://docs.google.com/presentation/d/14IkNABHwWxRch61UaD2hVYvQNx5_0HM-ze1e-8X8vXU/edit?usp=sharing)
 
-**Video Presentation**:
+**Video Presentation**: [Link here](https://www.youtube.com/watch?v=Mwm3H8_A7nk)
 
-**Live Visualization Tool**: https://visdesignstudies.github.io/module-three-design-study-lite-sadieamato/
+**Live Visualization Tool**: [Link here](https://visdesignstudies.github.io/module-three-design-study-lite-sadieamato/)
 
 ## Precondition
 ### 1. Learn
